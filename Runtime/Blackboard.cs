@@ -30,6 +30,19 @@ namespace BlackBoardRuntime
     {
         Dictionary<string, BlackboardKey> _keyRegistry = new();
         Dictionary<string, object> entries = new();
+
+        private BlackboardKey GetOrRegisterBlackBoardKey(string keyName)
+        {
+            Preconditions.CheckNotNull(keyName);
+            if (!_keyRegistry.TryGetValue(keyName, out BlackboardKey key)) { 
+                key = new BlackboardKey(keyName);
+                _keyRegistry[keyName] = key;
+            }
+            return key;
+        }
+
+        public bool ContainsKey(BlackboardKey key) => entries.ContainsKey(key);
+        public void Remove(BlackboardKey key) => entries.Remove(key);
     }
 
 }
