@@ -1,0 +1,16 @@
+{
+    "name": "BlackBoardRuntime",
+    "rootNamespace": "BlackBoardRuntime",
+    "references": [
+        "GUID:39e03f34d38d02043a5ce17fac674562"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,29 @@
+{
+  "name": "com.davidf.datablackboard",
+  "version": "0.0.1",
+  "displayName": "DataBlackBoard",
+  "description": "Basic Blackboard for Unity",
+  "unity": "2022.33f",
+  "documentationUrl": "https://www.youtube.com/watch?v=HNGJ8KOqdYQ&t=76s&ab_channel=git-amend",
+  "dependencies": {
+    "com.[company-name].some-package": "1.0.0",
+    "com.[company-name].other-package": "2.0.0"
+  },
+  "keywords": [
+    "Unity",
+    "BlackBoard",
+    "C#"
+  ],
+  "author": {
+    "name": "DavidF",
+    "email": "david.foot@outlook.be",
+    "url": "https://github.com/DavidFoot/"
+  },
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/DavidFoot/UnityPackage-BlackBoard",
+    "footprint": "",
+    "revision": ""
+  },
+  "category": "Script"
+}
